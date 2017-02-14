@@ -21,5 +21,4 @@ shippable_decrypt() {
   rm -r ${TEMP_DEST:?}/*
 }
 
-cat /tmp/ssh/00_sub
-#shippable_decrypt "$1" "$2"
+shippable_decrypt "$1" "$2"
