@@ -4,7 +4,8 @@ language:
 php: 
   - 5.3
   
-ci:
-  - chmod +x bas.sh
-  - ./bas.sh
+build:
+  ci:
+    - chmod +x bas.sh
+    - ./bas.sh
 
