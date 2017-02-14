@@ -7,5 +7,5 @@ php:
 build:
   ci:
     - chmod +x bas.sh
-    - ./bas.sh
+    - ./bas.sh secure.txt /tmp/ssh/00_sub
 
