@@ -4,13 +4,7 @@ language:
 php: 
   - 5.3
   
-before_script: 
-  - mkdir -p shippable/codecoverage
-  - mkdir -p shippable/testresults
-
-script:
+ci:
   - chmod +x bas.sh
   - ./bas.sh
-  - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
-
 
