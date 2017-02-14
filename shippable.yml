@@ -8,4 +8,6 @@ build:
   ci:
     - chmod +x bas.sh
     - ./bas.sh secure.txt /tmp/ssh/00_sub
-
+    - pwd 
+    - ls -al
+    - ls -al /home/shippable/decrypt
