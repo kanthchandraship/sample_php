@@ -11,3 +11,4 @@ build:
     - pwd 
     - ls -al
     - ls -al /home/shippable/decrypt
+    - cat secure.txt.decrypted
